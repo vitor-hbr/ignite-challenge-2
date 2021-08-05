@@ -34,8 +34,8 @@ const FoodComponent = ({ food, handleEditFood, handleDelete }: FoodProps) => {
     handleEditFood(food);
   }
 
-    return (<>
-      { isAvailable && <Container available={isAvailable}>
+    return (
+     <Container available={isAvailable}>
         <header>
           <img src={food.image} alt={food.name} />
         </header>
@@ -82,9 +82,7 @@ const FoodComponent = ({ food, handleEditFood, handleDelete }: FoodProps) => {
             </label>
           </div>
         </section>
-      </Container>
-      }
-      </>);
+      </Container>);
   }
 
 export default FoodComponent;

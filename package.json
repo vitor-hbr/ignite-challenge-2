@@ -9,6 +9,8 @@
     "@types/axios": "^0.14.0",
     "@types/react": "^17.0.15",
     "@types/react-dom": "^17.0.9",
+    "@types/react-modal": "^3.12.1",
+    "@types/react-router-dom": "^5.1.8",
     "@types/styled-components": "^5.1.12",
     "@unform/core": "^2.1.6",
     "@unform/web": "^2.1.6",
